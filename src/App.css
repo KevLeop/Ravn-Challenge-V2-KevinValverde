@@ -1,3 +1,13 @@
+/*App.js styles*/
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  height: 49px;
+  width: 90px;
+
+  background-color: blue;
+}
+
 /* SideBar styles*/
 .sideBar {
   padding: 1em;
@@ -25,7 +35,7 @@
 
 .sideBarElementIcon {
   display: flex;
-
+  font-weight: bold;
   font-size: 2rem;
   align-items: center;
 }
@@ -50,4 +60,12 @@
   display: flex;
   align-items: center;
   letter-spacing: 0.05em;
+}
+
+/*
+Content.js styles
+*/
+.ContentWrapper {
+  margin-left: 26rem;
+  max-width: 100%;
 }

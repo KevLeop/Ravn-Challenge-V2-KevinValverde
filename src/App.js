@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-// import NavBar from './components/NavBar'
 import SideBar from "./components/SideBar";
-import ContentTitle from "./components/ContentTitle";
-// import Content from './components/Content';
+import Content from "./components/Content";
 
 class App extends Component {
   constructor(props) {
@@ -16,15 +14,15 @@ class App extends Component {
 
   onClickFunction = (e, childData) => {
     this.setState({ message: childData });
-    console.log("childData");
-    console.log(childData);
   };
   render() {
     return (
       <div className="container">
         <NavBar />
-        <SideBar onSelected={(e, id) => this.onClickFunction(e, id)} />
-        <ContentTitle></ContentTitle>
+        <div className="container2">
+          <SideBar onSelected={(e, id) => this.onClickFunction(e, id)} />
+          <Content personID={this.state.message} />
+        </div>
       </div>
     );
   }
