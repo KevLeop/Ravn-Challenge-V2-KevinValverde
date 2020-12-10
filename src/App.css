@@ -3,9 +3,6 @@
   display: flex;
   justify-content: space-between;
   height: 49px;
-  width: 90px;
-
-  background-color: blue;
 }
 
 /* SideBar styles*/
@@ -17,6 +14,7 @@
   top: 52px;
   background: #ffffff;
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
 }
 
 .sideBarElement {

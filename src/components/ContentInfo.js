@@ -4,14 +4,14 @@ const ContentInfo = (props) => {
   if (props.children !== undefined) {
     return (
       <div>
-        <p>{props.children}</p>
+        <p >{props.children}</p>
       </div>
     );
   } else {
     return (
-      <div>
-        <p>{props.info}</p>
-        <p>{props.value}</p>
+      <div style={{display: 'flex'}}>
+        <div className={"elementName"} style={{paddingBottom: 15, display: 'flex', paddingRight: 5}}>{props.info}</div>
+        <div>{props.value}</div>
       </div>
     );
   }
