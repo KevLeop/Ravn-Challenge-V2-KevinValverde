@@ -1,6 +1,6 @@
 # RAVN-Challenge-V2
 ### Kevin Valverde
-This is a web app that allows to browse the Star Wars GraphQL Api, to demonstrte programming skills with React JS and fetching with [Apollo GraphQL Client](https://www.apollographql.com/).
+This is a web app that allows to browse the Star Wars GraphQL Api, to demonstrate programming skills with React JS and [Apollo GraphQL Client](https://www.apollographql.com/).
 
 
 In the project directory, you can run:
