@@ -13,10 +13,10 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Assumptions and results
-###[GraphiQL](https://swapi-graphql.netlify.app/) was used to verify the correct syntax of the GraphQL query
+### [GraphiQL](https://swapi-graphql.netlify.app/) was used to verify the correct syntax of the GraphQL query
 ![alt text](https://github.com/KevLeop/Ravn-Challenge-V2-KevinValverde/blob/master/screenshots/api_gql_test.png?raw=true)
 
-###Show loading indicator
+### Show loading indicator
 ![alt text](https://github.com/KevLeop/Ravn-Challenge-V2-KevinValverde/blob/master/screenshots/loading.png?raw=true)
 
 
