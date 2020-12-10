@@ -19,6 +19,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Show loading indicator
 ![alt text](https://github.com/KevLeop/Ravn-Challenge-V2-KevinValverde/blob/master/screenshots/loading.png?raw=true)
 
+### Running
+![alt text](https://github.com/KevLeop/Ravn-Challenge-V2-KevinValverde/blob/master/screenshots/running.png?raw=true)
+
 
 
 # Technologies used.
