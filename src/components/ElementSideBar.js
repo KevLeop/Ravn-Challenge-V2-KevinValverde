@@ -1,11 +1,12 @@
 import React from "react";
+import "./../App.css";
 
 const ElementSideBar = (props) => {
   return (
     <div>
-      <div>{props.name}</div>
+      <div className="elementName">{props.name}</div>
       <div>
-        <p>
+        <p className="elementDetail">
           <span>{props.species !== null ? props.species.name : "Human"}</span>
           {" from "}
           <span>{props.homeworld.name}</span>

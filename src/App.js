@@ -21,10 +21,10 @@ class App extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="container">
         <NavBar />
         <SideBar onSelected={(e, id) => this.onClickFunction(e, id)} />
-        <ContentTitle>Prueba de contenido</ContentTitle>
+        <ContentTitle></ContentTitle>
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 const SCREEN_WIDTH = "1440px";
 class NavBar extends Component {
   NavBarStyle() {
